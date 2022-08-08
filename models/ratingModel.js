@@ -12,6 +12,9 @@ const RatingModel = new mongoose.Schema({
     },
     userId: {
         type: String,
+    },
+    movieId: {
+        type: String,
     }
 });
 
